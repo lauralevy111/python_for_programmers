@@ -6,18 +6,12 @@ pi = 3.14 #float
 #print(pi)
 
 firstName = "britney"
-firstName= firstName.upper()
+firstName.replace(firstname[0],firstName[0].upper())
 
-lastname= "spears"
-lastname= lastname.upper()
-
-namelen= len(lastname)
-
-
-
+lastName= "spears"
+lastName.replace(lastName[0],lastName[0].upper())
 
 sentence = ("my name is {} {}".format(firstName,lastname))
 
 
 print(sentence.replace("my", "My"))
-print(sentence.split())
