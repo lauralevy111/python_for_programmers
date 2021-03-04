@@ -3,7 +3,7 @@ radius = 5.777777777
 
 area = pi*radius*radius
 
-area  = round(area,3)
+area  = int(area)
 
 #bigNumber = 5**100 #= five to the hundreth power
 
