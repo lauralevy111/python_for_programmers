@@ -5,9 +5,8 @@ age = 24 #int
 pi = 3.14 #float
 #print(pi)
 
+my_story = "free britney"
+lastname= "spears"
 
-"""dsafkadlsjkfl;aj
-'laura'#string
-name = "Laura🙄"
-print(name)
-"""
+print(my_story+" "+lastname)
+print(3*lastname)
