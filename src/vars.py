@@ -6,10 +6,10 @@ pi = 3.14 #float
 #print(pi)
 
 firstName = "britney"
-firstName.replace(firstname[0],firstName[0].upper())
+firstName.replace(firstName[0],firstName[0].upper())
 
 lastName= "spears"
-lastName.replace(lastName[0],lastName[0].upper())
+lastName.replace(lastName[0],lastname[0].upper())
 
 sentence = ("my name is {} {}".format(firstName,lastname))
 
