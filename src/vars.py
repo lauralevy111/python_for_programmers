@@ -5,8 +5,8 @@ age = 24 #int
 pi = 3.14 #float
 #print(pi)
 
-my_story = "free britney"
+firstName = "britney"
 lastname= "spears"
 
-print(my_story+" "+lastname)
-print(3*lastname)
+
+print("my name is {} {}".format(firstName,lastname))
