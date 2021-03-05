@@ -26,4 +26,4 @@ elif(.69 >= percent >= .60):
 elif(.59 >= percent >= 0):
     letterGrade = "F"
 
-print("Student= {} \nLetterGrade = {}".format(studentName,letterGrade))
+print("Student = {} \nLetterGrade = {} \nPercentage score = {}".format(studentName,letterGrade,percent))
