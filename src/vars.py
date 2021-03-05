@@ -5,6 +5,7 @@ age = 24 #int
 pi = 3.14 #float
 #print(pi)
 
+#Strings
 firstName = "britney"
 firstName.replace(firstName[0],firstName[0].upper())
 
