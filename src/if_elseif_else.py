@@ -1,5 +1,5 @@
-temp = 75
-if temp>65:
-    print("its a beatiful day!")
-elif temp<65:
-    print("bring a sweater")
+
+age = 7
+
+if 7>= age >=5:
+    print("between five and seven")
