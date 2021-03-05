@@ -1,6 +1,6 @@
 
 pointsPossible = 100
-score = 98
+score = 94.333335555
 studentName = "Laura"
 
 """
@@ -12,7 +12,7 @@ f= 59-0%
 """
 
 
-percent = float(score/pointsPossible)
+percent = round(float(score/pointsPossible),1)
 letterGrade = "TBD"
 
 if (1.00 >= percent >= .90):
