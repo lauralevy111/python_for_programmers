@@ -6,6 +6,7 @@ studentName = input("Enter student name: ")
 try:
     score =float(input("Enter test score: "))
     print("score = {}".format(score))
+    calcPercentGrade()
 
 
 except Exception:
