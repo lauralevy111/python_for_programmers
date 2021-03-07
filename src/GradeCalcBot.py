@@ -6,7 +6,7 @@ try:
     score =float(input("Enter test score: "))
     print("score = {}".format(score))
 except Exception:
-    pritn("you need to enter a valid score")
+    print("you need to enter a valid score")
 percent = round(score/pointsPossible,2)
 letterGrade = "ERROR"
 
@@ -28,6 +28,7 @@ elif(.79 >= percent >= .70):
     letterGrade = "C"
 elif(.69 >= percent >= .60):
     letterGrade = "D"
+elif(.59 >= percent >= .50)65y97053uy    letterGrade = "E"
 elif(.59 >= percent >= .50):
     letterGrade = "F"
 
