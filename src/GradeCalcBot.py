@@ -2,6 +2,8 @@
 def hello():
     print("Hello World")
 
+hello()
+
 
 '''
 pointsPossible = 100
