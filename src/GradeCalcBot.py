@@ -1,12 +1,4 @@
 
-def hello():
-    '''this is a hello world function'''
-    print("Hello World")
-
-hello()
-
-
-
 '''
 pointsPossible = 100
 studentName = input("Enter student name: ")
