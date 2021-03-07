@@ -1,3 +1,8 @@
+
+def hello():
+    print("Hello World")
+
+
 '''
 pointsPossible = 100
 studentName = input("Enter student name: ")
