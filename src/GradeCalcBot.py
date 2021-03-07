@@ -3,18 +3,6 @@
 pointsPossible = 100
 studentName = input("Enter student name: ")
 
-try:
-    score =float(input("Enter test score: "))
-    print("score = {}".format(score))
-    calcPercentGrade()
-
-
-except Exception:
-    print("you need to enter a valid score")
-
-
-print("Student = {} \nLetterGrade = {} \nPercentage score = {}".format(studentName,letterGrade,percent))
-
 def calcPercentGrade():
     print("calculating grade")
     percent = round(score/pointsPossible,2)
@@ -44,3 +32,14 @@ def calcPercentGrade():
         letterGrade = "E"
     elif(.59 >= percent >= .50):
         letterGrade = "F"
+try:
+    score =float(input("Enter test score: "))
+    print("score = {}".format(score))
+    calcPercentGrade()
+
+
+except Exception:
+    print("you need to enter a valid score")
+
+
+print("Student = {} \nLetterGrade = {} \nPercentage score = {}".format(studentName,letterGrade,percent))
