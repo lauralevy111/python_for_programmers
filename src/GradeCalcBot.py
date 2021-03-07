@@ -8,6 +8,10 @@ try:
     print("score = {}".format(score))
 except Exception:
     print("you need to enter a valid score")
+
+def calcPercentGrade():
+    print("calculating grade")
+
 percent = round(score/pointsPossible,2)
 letterGrade = "ERROR"
 
