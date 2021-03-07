@@ -42,4 +42,6 @@ except Exception:
     print("you need to enter a valid score")
 
 
-print("Student = {} \nLetterGrade = {} \nPercentage score = {}".format(studentName,letterGrade,percent))
+print("Student = {} ".format(studentName))
+print("\nLetterGrade = {} ".format(letterGrade))
+print("\nPercentage score = {}".format(percent))
