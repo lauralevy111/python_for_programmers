@@ -3,7 +3,7 @@
 pointsPossible = 100
 studentName = input("Enter student name: ")
 
-def calcPercentGrade():
+def calcPercentGrade(score, pointsPossible):
     print("calculating grade")
     percent = round(score/pointsPossible,2)
 
