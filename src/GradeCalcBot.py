@@ -32,7 +32,7 @@ def calcPercentGrade(score, pointsPossible):
 try:
     score =float(input("Enter test score: "))
     print("score = {}".format(score))
-    calcPercentGrade()
+    calcPercentGrade(score, pointsPossible)
 except Exception:
     print("you need to enter a valid score")
 
