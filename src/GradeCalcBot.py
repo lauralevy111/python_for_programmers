@@ -40,7 +40,7 @@ try:
     score =float(input("Enter test score: "))
     print("score = {}".format(score))
     calcPercentGrade(score, pointsPossible)
-    calcLetterGrade(calcPercentGrade(score,pointsPossibler))
+    letterGrade = calcLetterGrade(calcPercentGrade(score,pointsPossibler))
 except Exception:
     print("you need to enter a valid score")
 
