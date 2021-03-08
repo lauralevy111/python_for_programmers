@@ -7,8 +7,6 @@ def calcPercentGrade(score, pointsPossible):
     print("calculating grade")
     percent = round(score/pointsPossible,2)
 
-
-
 def calcLetterGrade(percent):
     letterGrade = "ERROR"
 
@@ -36,6 +34,7 @@ try:
     score =float(input("Enter test score: "))
     print("score = {}".format(score))
     calcPercentGrade(score, pointsPossible)
+    calcLetterGrade(calcPercentGrade(score,pointsPossibler))
 except Exception:
     print("you need to enter a valid score")
 
