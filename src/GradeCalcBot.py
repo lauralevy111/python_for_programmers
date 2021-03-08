@@ -29,6 +29,9 @@ def calcPercentGrade(score, pointsPossible):
         letterGrade = "E"
     elif(.59 >= percent >= .50):
         letterGrade = "F"
+
+def calcLetterGrade(percent):
+
 try:
     score =float(input("Enter test score: "))
     print("score = {}".format(score))
