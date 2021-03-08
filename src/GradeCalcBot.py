@@ -1,4 +1,4 @@
-
+# welcome to my grade calculating app!
 
 pointsPossible = 100
 studentName = input("Enter student name: ")
@@ -34,7 +34,6 @@ def calcLetterGrade(percent):
         letterGrade = "F"
 
     return letterGrade
-
 
 try:
     score =float(input("Enter test score: "))
