@@ -32,7 +32,7 @@ def calcLetterGrade(percent):
     elif(.59 >= percent >= .50):
         letterGrade = "F"
 
-    return elif
+    return letterGrade
 
 
 try:
