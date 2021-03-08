@@ -8,6 +8,7 @@ percent = 0
 def calcPercentGrade(score, pointsPossible):
     print("calculating grade")
     percent = round(score/pointsPossible,2)
+    return percent
 
 def calcLetterGrade(percent):
 
