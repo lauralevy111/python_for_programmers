@@ -2,13 +2,14 @@
 
 pointsPossible = 100
 studentName = input("Enter student name: ")
+letterGrade = "ERROR"
+percent = 0
 
 def calcPercentGrade(score, pointsPossible):
     print("calculating grade")
     percent = round(score/pointsPossible,2)
 
 def calcLetterGrade(percent):
-    letterGrade = "ERROR"
 
     '''
     a= 100-90%
