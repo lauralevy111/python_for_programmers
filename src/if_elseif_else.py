@@ -14,8 +14,3 @@ if (even and fiveToSeven): #even is true AND fiveToSeven is true
 n = "ajksfkadsjklf----002929"
 if n:   #it came out to true bc n != null
     print("it worked")
-
-b
-
-if b:
-    print("it worked 2x")
