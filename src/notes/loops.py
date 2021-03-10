@@ -1,4 +1,5 @@
 #Loops
+faveSingers = ["Dolly Parton", "Whitney Houston", "Mariah Carey", "Celine Dion","Lady Gaga","Whitney Houston"]
 
 #forloops
 '''
@@ -8,9 +9,14 @@ for x in range(5):
 print("******(***)")
 for n in range(5,12):
     print(n)#prints 5 - 11
-'''
 
-faveSingers = ["Dolly Parton", "Whitney Houston", "Mariah Carey", "Celine Dion","Lady Gaga","Whitney Houston"]
+
 
 for singer in faveSingers:
     print(singer)
+'''
+#whileloops
+capacity = 300
+while capacity< 330:
+    print(capacity)
+    capacity+=1
