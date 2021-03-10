@@ -17,3 +17,9 @@ print(faveSingers) #prints:{'Whitney Houston', 'Dolly Parton', 'Mariah Carey', '
 
 #how do i append an item to the end?:
 faveSingers.add("Robyn")
+
+faveSingers = ["Dolly Parton", "Whitney Houston", "Mariah Carey", "Celine Dion","Lady Gaga","Whitney Houston"]
+
+setFaveSingers = set(faveSingers)
+
+print(setFaveSingers)
