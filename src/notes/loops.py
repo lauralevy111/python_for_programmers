@@ -17,6 +17,12 @@ for singer in faveSingers:
 '''
 #whileloops
 capacity = 300
+'''
 while capacity< 330:
     print(capacity)
     capacity+=1
+'''
+guess = input("Guess a number between 1 and 10:")
+while guess != 9:
+    guess = input("thats not it, guess again please:")
+print("you win!💃")
