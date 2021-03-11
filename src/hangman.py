@@ -9,29 +9,38 @@ word = "orange"
 #if you guess incorrect, decrement lives.
 #can the user guess all the letters before running out of lives
 
-print("WELCOME TO \n💀HANGMAN.PY💀"+
-"\n😱😟🤯😰🧟‍😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️♂️"+
-"\n_ _ _ _ _ _ "+
-" \nYOU MUST GUESS MY SECRET WORD🔮")
+
 wordList = list(word)
+
+def hello :
+    print("WELCOME TO \n💀HANGMAN.PY💀"+
+    "\n😱😟🤯😰🧟‍😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️♂️"+
+    "\n_ _ _ _ _ _ "+
+    " \nYOU MUST GUESS MY SECRET WORD🔮")
+
+def getRevealedString(guessSet) =
+    revealed = ""
+    for letter in wordList
+    if letter in guessSet:
+        revealed += letter+" "
+    else:
+        revealed+= "_ "
+    return(revealed)
+
+hello()
 guessSet = set
 
-while len(wordList) != 0:
+while lives >= 0:
     guess = input("Please guess a leter from my secret word: ")
     guessSet.add(guess.lower())
     if letter in wordList:#guess =="correct":
         print("CORRECT :)")
-        revealed = ""
-        for letter in wordList
-        if letter in guessSet:
-            revealed += letter+" "
-        else:
-            revealed+= "_ "
-        print(revealed)
-        #TODO: get us back to line 20 for another guess
-    elsif guess=="allreadyguessedletter": #todo: the letter was already unguessed
-        #TODO: get us back to line 20 for anoither Guess
-    else : #TODO: guess is incorrect
+        continue;
+    elsif guess in guessSet:    #guess was already guessed
+        print("you have already guessed this letter")
+        continue;
+    else: #guess is incorrect
         #TODO: decrement lives
         #TODO: print lives left
         #TODO: if lives<=0: break, you are out of lives
+    revealed = getRevealedString(guessSet)
