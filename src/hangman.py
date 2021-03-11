@@ -14,15 +14,20 @@ print("WELCOME TO \n💀HANGMAN.PY💀"+
 "\n_ _ _ _ _ _ "+
 " \nYOU MUST GUESS MY SECRET WORD🔮")
 wordList = list(word)
-letterSet = set
-
+guessSet = set
 
 while len(wordList) != 0:
     guess = input("Please guess a leter from my secret word: ")
-    for letter in wordList:
-        if letter ==guess.lower():#guess =="correct":
-                letterSet.add(letter)
-        #TODO: print the word with blanks on letters unguessed.
+    guessSet.add(guess.lower())
+    if letter in wordList:#guess =="correct":
+        print("CORRECT :)")
+        revealed = ""
+        for letter in wordList
+        if letter in guessSet:
+            revealed += letter+" "
+        else:
+            revealed+= "_ "
+        print(revealed)
         #TODO: get us back to line 20 for another guess
     elsif guess=="allreadyguessedletter": #todo: the letter was already unguessed
         #TODO: get us back to line 20 for anoither Guess
