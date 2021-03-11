@@ -34,14 +34,17 @@ while lives >= 0:
     guess = input("Please guess a leter from my secret word: ")
     if guess in wordList:#guess =="correct":
         print("CORRECT :)")
-    elif guess in guessSet:    #guess was already guessed
-        print("you have already guessed this letter")
     else: #guess is incorrect
-        print("doodly doo")
-        #TODO: decrement lives
-        #TODO: print lives left
-        #TODO: if lives<=0: break, you are out of lives
+        lives -=1
+        print("this letter does not exist in my secret word.")
+        print("LIVES REMAINING: {}".format(lives))
 
+        if lives<=0 :
+            print("out of lives! you lost!")
+            break
     guessSet.add(guess.lower())
     revealed = getRevealedString(guessSet)
+    if revealed == "o r a n g e ":
+        print("you win!")
+        break
     print(revealed)
