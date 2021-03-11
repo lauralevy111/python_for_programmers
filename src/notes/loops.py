@@ -45,3 +45,14 @@ for x in range(10):
         continue
     print("x ! = 5")
 print("All done")
+
+#else:
+for x in range(10,14):
+    print(x)
+    if x ==5 :
+        print("I will now continue")
+        break#the addition of this line means we break out of the loop & we dont even touch the else
+    print("x ! = 5")
+else:
+    print("💅 else")
+print("All done")
