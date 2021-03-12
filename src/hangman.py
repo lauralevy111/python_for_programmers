@@ -9,14 +9,12 @@ word = "apple"
 #if you guess incorrect, decrement lives.
 #can the user guess all the letters before running out of lives
 
-
 wordList = list(word)
 
 def hello():
     print("😱😟🤯😰🧟‍😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️♂️"+
     "\nWELCOME TO \n💀HANGMAN.PY💀"+
     "\n😱😟🤯😰🧟‍😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️♂️"+
-    "\n_ _ _ _ _  "+
     " \nYOU MUST GUESS MY SECRET WORD🔮")
 
 def getRevealedString(guessSet):
