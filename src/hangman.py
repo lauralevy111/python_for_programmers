@@ -1,8 +1,8 @@
 #Hangman
 
 #given code
-lives = 10 # = # of incorrect guesses
-word = "orange"
+lives = 7# = # of incorrect guesses
+word = "apple"
 
 #project brief
 #if you guess a letter correct, it does NOT subtract a life
@@ -13,9 +13,10 @@ word = "orange"
 wordList = list(word)
 
 def hello():
-    print("WELCOME TO \n💀HANGMAN.PY💀"+
+    print("😱😟🤯😰🧟‍😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️♂️"+
+    "\nWELCOME TO \n💀HANGMAN.PY💀"+
     "\n😱😟🤯😰🧟‍😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️♂️"+
-    "\n_ _ _ _ _ _ "+
+    "\n_ _ _ _ _  "+
     " \nYOU MUST GUESS MY SECRET WORD🔮")
 
 def getRevealedString(guessSet):
@@ -40,11 +41,15 @@ while lives >= 0:
         print("LIVES REMAINING: {}".format(lives))
 
         if lives<=0 :
-            print("out of lives! you lost!")
+            print("😱😟🤯😰🧟‍😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️"+
+            "\n💀you lost! 💀"+
+            "\n😱😟🤯😰🧟‍😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️😱😟🤯😰🧟‍♂️")
             break
     guessSet.add(guess.lower())
     revealed = getRevealedString(guessSet)
-    if revealed == "o r a n g e ":
-        print("you win!")
+    if revealed == "a p p l e ":
+        print("🤩💃💎🤩💃💎🤩💃💎🤩💃💎"+
+        "\nyou win!"+
+        "\n🤩💃💎🤩💃💎🤩💃💎🤩💃💎")
         break
     print(revealed)
