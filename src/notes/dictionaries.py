@@ -18,3 +18,10 @@ dogsAges["Mason"]=7
 del(dogsAges["Greyson"])
 
 print(dogsAges)
+
+#dictionary.keys() method:
+#for name in dogsAges.keys(): #loops through keys
+print(dogsAges.keys())# will print: dict_keys(['Zilpha', 'Beauregard', 'Gidget', 'Apollo', 'Mason'])
+for name in dogsAges.keys(): #loops through keys, instructor says you cant be sure what order they'll be in
+    print(name)
+sach of the items in the dictionary as a tuple. 
