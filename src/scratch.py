@@ -4,6 +4,6 @@
 
 #TODO: create functions required to create team member feedback encapsulated
 #TODO: def createEmployee(name, department, hiringManagerID):
-#TODO: def assignToTeam():
+#TODO: def assignToTeam(employeeID, teamID):
     #have user specify team to add employee to
 #TODO: def teamMemberTransfer(employee, destination):
