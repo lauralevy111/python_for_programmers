@@ -11,3 +11,4 @@
 #TODO: def assignToTeam(employeeID, teamID):
     #have user specify team to add employee to
 #TODO: def teamMemberTransfer(employee, destination):
+#TODO: def dropEmployee(employeeID, department):
