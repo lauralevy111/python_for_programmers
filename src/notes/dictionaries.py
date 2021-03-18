@@ -33,4 +33,4 @@ print(dogsAges.items()) # will print : dict_items(['Zilpha',8), ('Beauregard',1)
 #^^ this is each of the items in the dictionary as a tuple.
 
 #print(type(dogsAges.values()))# prints "<class 'dict_values'>"
-print(type(dogsAges.items()))
+print(type(dogsAges.items()))# prints "<class 'dict_values'>"
