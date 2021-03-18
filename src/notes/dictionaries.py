@@ -37,4 +37,4 @@ print(dogsAges.items()) # will print : dict_items(['Zilpha',8), ('Beauregard',1)
 
 #dict_values & dict_items = VIEW like in a db!
 
-names = list(dogs.keys())
+names = list(dogsAges.keys())
