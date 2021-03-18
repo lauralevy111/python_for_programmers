@@ -24,7 +24,7 @@ print(dogsAges)
 print(dogsAges.keys())# will print: dict_keys(['Zilpha', 'Beauregard', 'Gidget', 'Apollo', 'Mason'])
 for name in dogsAges.keys(): #loops through keys, instructor says you cant be sure what order they'll be in
     print(name)
-s
+
 #dictionary.values() method:
 print(dogsAges.values())# will print : dict_values([8, 1, 1, 0, 7])
 
