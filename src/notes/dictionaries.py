@@ -34,3 +34,5 @@ print(dogsAges.items()) # will print : dict_items(['Zilpha',8), ('Beauregard',1)
 
 #print(type(dogsAges.values()))# prints "<class 'dict_values'>"
 #print(type(dogsAges.items()))# prints "<class 'dict_items'>"
+
+#dict_values & dict_items = VIEW like in a db!
