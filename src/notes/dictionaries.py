@@ -43,3 +43,4 @@ names = list(dogsAges.keys())
 print(type(names)) # = <class 'list'>
 dogsNames= dogsAges.keys())
 print(dogsNames)
+del(dogs["Mason"])
