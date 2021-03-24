@@ -47,4 +47,4 @@ del(dogs["Mason"])
 print(dogsNames)#any changes we make to dogAges dictionary gets reflectdd in names autmatically
 
 listNames = list (dogs.keys)
-del(dogs["Beuregard"])#this wont change listNames bc we used "list"
+#del(dogs["Beuregard"])#this wont change listNames bc we used "list"
