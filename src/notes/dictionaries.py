@@ -50,5 +50,5 @@ listNames = list (dogs.keys)
 #del(dogs["Beuregard"])#this wont change listNames bc we used "list"
 
 
-stringNames = dogs.dict_keys
+dictKeys_Names = dogs.dict_keys
 pring(type.stringNames)
