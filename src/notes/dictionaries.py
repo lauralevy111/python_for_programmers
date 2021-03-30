@@ -51,4 +51,4 @@ listNames = list (dogs.keys)
 
 
 dictKeys_Names = dogs.dict_keys
-pring(type.stringNames)
+pring(type.dictKeys_Names)
