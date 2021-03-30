@@ -48,3 +48,6 @@ print(dogsNames)#any changes we make to dogAges dictionary gets reflectdd in nam
 
 listNames = list (dogs.keys)
 #del(dogs["Beuregard"])#this wont change listNames bc we used "list"
+
+
+stringNames = dogs.dict_keys
