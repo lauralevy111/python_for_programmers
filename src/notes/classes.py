@@ -15,3 +15,4 @@ dog3 = Dog()
 dog3.age = 8 # you can create instance variable kinds on the fly
 
 print(dog1.dogInfo)
+print(dog2.dogInfo)
