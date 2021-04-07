@@ -10,4 +10,4 @@ dog1.name = "Zilpha"
 dog2 = Dog()
 dog2.name = "Gidgette"
 dog3 = Dog()
-dog3.age = 8
+dog3.age = 8 # you can create instance variable kinds on the fly
