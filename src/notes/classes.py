@@ -3,6 +3,8 @@
 #instance variable = usuallly unique
 
 class Dog:
+    dogInfo = "Dogs are animals iwth 4 legs and a tail"
+    
     "Hello new dog"
 
 dog1 = Dog()
