@@ -20,4 +20,4 @@ class Dog:
         self.weight = weight
         print("creating a dog")
 
-dog1 = Dog()
+dog1 = Dog("Zilpha", 8,"White", 10.5)
