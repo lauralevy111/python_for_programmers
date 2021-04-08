@@ -14,7 +14,7 @@ cat1 = Cat()
 
 class Dog:
     def __init__(age, name, fur_color, weight):
-        self.name = name
+        self.name = name #self.name = instance variable, name = value from constructor
         self.age = age
         self.fur_color = fur_color
         self.weight = weight
