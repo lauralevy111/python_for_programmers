@@ -14,3 +14,5 @@ cat1 = Cat()
 
 class Dog:
     def __init__(age, name, fur_color, weight):
+        print("creating a dog")
+        
