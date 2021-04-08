@@ -11,3 +11,5 @@ class Cat:
         print("inside __init__(self) hello, Laura !")
 
 cat1 = Cat()
+
+class Dog:
