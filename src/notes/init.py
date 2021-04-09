@@ -12,8 +12,9 @@ class Dog:
     def bark_hello(self):
         print("Hello, bark bark!")
 
-    def bark_goodbye():
+    def bark_goodbye(self):
         print("Bark bark, goodbye")
 
 dog1 = Dog("Zilpha",8,"White",10)
 dog1.bark_hello()
+dog1.bark_goodbye()
