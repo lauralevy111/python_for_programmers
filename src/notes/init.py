@@ -21,7 +21,7 @@ class Dog:
         print("creating a dog")
 
     def bark_hello():
-        print("bark bark!")
+        print("Hello, bark bark!")
 
 dog1 = Dog("Zilpha", 8,"White", 10.5)
 dog1.bark_hello()
