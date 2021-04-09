@@ -28,3 +28,4 @@ class Dog:
 
 dog1 = Dog("Zilpha", 8,"White", 10.5)
 dog1.bark_hello()
+dog1.bark_goodbye()
