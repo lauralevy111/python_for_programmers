@@ -18,8 +18,8 @@ class Dog:
         self.age = age
         self.fur_color = fur_color
         self.weight = weight
+        print("creating a dog")
 
     def bark_hello():
-        print("creating a dog")
 
 dog1 = Dog("Zilpha", 8,"White", 10.5)
