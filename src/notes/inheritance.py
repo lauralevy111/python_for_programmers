@@ -1,6 +1,6 @@
 #inheritance
 
-class Car:
+class Car(transportation):
     def __init__(self,year, make, model, miles):
         self.year = year
         self.make = make
