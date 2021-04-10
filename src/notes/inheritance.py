@@ -6,3 +6,5 @@ class Car:
         self.make = make
         self.model = model
         self.miles = miles
+    def start_car():
+        let position = 0
