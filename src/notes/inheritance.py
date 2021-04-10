@@ -4,7 +4,7 @@ class Transportation:
     def __init__(wheels):
         self.wheels = wheels
 
-class Car(transportation):
+class Car(Transportation):
     def __init__(self,year, make, model, miles):
         self.year = year
         self.make = make
