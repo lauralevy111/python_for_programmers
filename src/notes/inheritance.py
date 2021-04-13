@@ -12,3 +12,4 @@ class Car(Transportation):
         self.miles = miles
     def start_car():
         let position = 0
+        let acceleration = 0
