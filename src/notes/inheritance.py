@@ -14,4 +14,4 @@ class Car(Transportation):
         let position = 0
         let acceleration = 0
 
-        accelleration= acceleration + 1
+        acceleration= acceleration + 1
