@@ -15,3 +15,5 @@ class Car(Transportation):
         let acceleration = 0
 
         acceleration= acceleration + 1
+
+        let speed = acceleration* acceleration
