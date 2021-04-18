@@ -16,4 +16,4 @@ class Car(Transportation):
 
         acceleration= acceleration + 1
 
-        let speed = acceleration* acceleration
+        let speed = acceleration* time
