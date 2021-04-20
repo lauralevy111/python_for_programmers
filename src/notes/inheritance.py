@@ -11,6 +11,9 @@ class Car(Transportation):
         self.model = model
         self.miles = miles
     def start_car():
+
+        let time = 0
+
         let position = 0
         let acceleration = 0
 
