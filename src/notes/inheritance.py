@@ -13,6 +13,7 @@ class Car(Transportation):
     def start_car():
 
         let time = 0
+        time = time + 1
 
         let position = 0
         let acceleration = 0
