@@ -22,4 +22,4 @@ class Car(Transportation):
 
         let speed = acceleration* time
     def hello():
-        print("car says hellos")
+        print("car says hello")
